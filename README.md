@@ -18,19 +18,19 @@ Handle long-lived event streams efficiently.
           | (Real-time JSON changes)    |
           +--------------+--------------+
                          |
-                         ▼
+                         |
               [Spring Boot Kafka Producer]
                          |
-                         ▼
+                         |
                  +----------------+
                  | Kafka Topic    |
                  | wikimedia_recentchange |
                  +----------------+
                          |
-                         ▼
+                         |
               [Spring Boot Kafka Consumer]
                          |
-                         ▼
+                         |
                  +----------------+
                  | PostgreSQL DB  |
                  | wikimedia_data |
