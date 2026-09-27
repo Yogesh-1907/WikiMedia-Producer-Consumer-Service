@@ -10,4 +10,5 @@ public interface WikiMediaDataStore extends JpaRepository<WikimediaFeeds, Long> 
 
     //Creating repository level bean
     // Can define custom query methods here
+    // Or use the default query methods provided by JpaRepository
 }
