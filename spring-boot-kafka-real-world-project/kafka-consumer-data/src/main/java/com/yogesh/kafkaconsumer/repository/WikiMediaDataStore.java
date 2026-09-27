@@ -7,4 +7,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface WikiMediaDataStore extends JpaRepository<WikimediaFeeds, Long> {
+
+    //Creating repository level bean
+    // Can define custom query methods here
 }

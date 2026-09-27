@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service  //Creating service level bean
 @Slf4j
 public class KafkaDataBaseConsumer {
 
